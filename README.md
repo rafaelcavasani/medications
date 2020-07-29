@@ -2,6 +2,17 @@
 
 Esse é um aplicativo para busca de medicamentos desenvolvido em Flutter.
 
+## Desenvolvimento
+
+* Foi utilizado Mobx e Provider para gerenciamento de estado.
+* Os arquivos foram divididos nas pastas:
+  * **api**: arquivos relacionados a configuração do Dio para requisições a API;
+  * **components**: componentes encapsulados criados para reaproveitamento e componentização;
+  * **controllers**: classes de controle e armazenamento do estado da aplicação;
+  * **models**: classes de serialização dos modelos User e Medication;
+  * **pages**: widgets responsáveis por renderizar cada página do app;
+  * **services**: classes exclusivas para acesso a API;
+
 ## Login
 
 Para acessar o sistema, preencha o seu nome de usuário e senha.
