@@ -13,8 +13,8 @@ class CustomRaisedButton extends StatelessWidget {
     @required this.text,
     @required this.onPressed,
     this.heigth = 50,
-    this.color = const Color.fromRGBO(46, 94, 130, 1),
-    this.fontColor = Colors.white,
+    this.color = const Color.fromRGBO(255, 255, 255, 1),
+    this.fontColor = const Color.fromRGBO(122, 44, 150, 1),
     this.fontSize = 20,
     this.fontWeight = FontWeight.normal,
   });
@@ -26,6 +26,9 @@ class CustomRaisedButton extends StatelessWidget {
         height: heigth,
         child: RaisedButton(
           color: color,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(30.0),
+              side: BorderSide(color: Colors.white)),
           child: Text(text,
               style: TextStyle(
                   color: fontColor,

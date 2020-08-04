@@ -23,7 +23,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Color.fromRGBO(23, 124, 161, 1),
+      backgroundColor: Color.fromRGBO(122, 44, 150, 1),
       centerTitle: true,
       title: title ?? Text('Medicamentos App'),
       actions: actions,

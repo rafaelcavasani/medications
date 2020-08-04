@@ -23,7 +23,7 @@ class CustomUserAccontsDrawerHead extends StatelessWidget {
             ));
       }),
       decoration: BoxDecoration(
-        color: Color.fromRGBO(23, 124, 161, 1),
+        color: Color.fromRGBO(122, 44, 150, 1),
       ),
       onDetailsPressed: () {},
       accountEmail: null,

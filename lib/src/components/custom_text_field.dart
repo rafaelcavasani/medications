@@ -33,17 +33,8 @@ class CustomTextField extends StatelessWidget {
       obscureText: obscuredText,
       style: TextStyle(color: this.colorStyle ?? Colors.white),
       decoration: InputDecoration(
-        enabledBorder: OutlineInputBorder(
-          borderSide:
-              BorderSide(color: this.colorEnabledBorder ?? Colors.white),
-        ),
-        focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(
-              color: this.colorFocusedBorder ?? Color.fromRGBO(15, 45, 82, 1)),
-        ),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(100)),
-        labelText: labelText,
-        labelStyle: labelStyle,
+        hintText: labelText,
+        hintStyle: labelStyle,
         prefixIcon: prefixIcon,
       ),
       controller: controller,

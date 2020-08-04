@@ -19,10 +19,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage("assets/images/background.jpg"),
-                fit: BoxFit.cover)),
+        decoration: BoxDecoration(color: Color.fromRGBO(122, 44, 150, 1)),
         child: Scaffold(
           backgroundColor: Colors.transparent,
           body: ModalProgressHUD(
@@ -38,14 +35,15 @@ class _LoginPageState extends State<LoginPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Padding(
-                          padding: EdgeInsets.fromLTRB(20, 60, 20, 0),
+                          padding: EdgeInsets.fromLTRB(20, 100, 20, 0),
                           child: SizedBox(
                             width: 250,
                             height: 150,
                             child: Image.asset('assets/images/avatar.png'),
                           )),
                       Padding(
-                        padding: EdgeInsets.all(20),
+                        padding: EdgeInsets.only(
+                            top: 50, left: 20, right: 20, bottom: 20),
                         child: CustomTextField(
                           labelText: 'Usuário',
                           controller: _usernameController,
@@ -59,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.only(left: 20, right: 20),
+                        padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                         child: CustomTextField(
                           labelText: 'Senha',
                           controller: _passwordController,
@@ -74,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+                        padding: EdgeInsets.fromLTRB(20, 70, 20, 0),
                         child: CustomRaisedButton(
                           text: 'LOGIN',
                           fontWeight: FontWeight.bold,

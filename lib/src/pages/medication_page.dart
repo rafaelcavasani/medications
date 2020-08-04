@@ -32,7 +32,6 @@ class _MedicationPageState extends State<MedicationPage> {
         child: Column(
           children: <Widget>[
             Container(
-              padding: EdgeInsets.all(20),
               child: Container(
                 child: CustomTextField(
                   controller: _nameController,
