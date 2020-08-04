@@ -12,16 +12,22 @@ Esse é um aplicativo para busca de medicamentos desenvolvido em Flutter.
   * **models**: classes de serialização dos modelos User e Medication;
   * **pages**: widgets responsáveis por renderizar cada página do app;
   * **services**: classes exclusivas para acesso a API;
+  
+## Layouts
+
+Foi enviado ao github o layout 1 na branch master e o layout 2 na branch layout-2
 
 ## Login
 
 Para acessar o sistema, preencha o seu nome de usuário e senha.
 
-![Alt text](/assets/images/login.png?raw=true)
+![Layout 1](/assets/images/login.png?raw=false)
+![Layout 2](/assets/images/login_2.png?raw=true)
 
 ## Tele inicial
 
-![Alt text](/assets/images/home.png?raw=true)
+![Layout 1](/assets/images/home.png?raw=false)
+![Layout 2](/assets/images/home_2.png?raw=true)
 
 ## Menu
 
@@ -29,22 +35,29 @@ Para acessar o sistema, preencha o seu nome de usuário e senha.
 2. Medicamentos: Navega até a tela de busca dos medicamentos;
 3. Sair: Logouot do usuário e retorna a tela de login;
 
-![Alt text](/assets/images/menu.png?raw=true)
+![Layout 1](/assets/images/menu.png?raw=false)
+![Layout 2](/assets/images/menu_2.png?raw=true)
 
 ## Medicamentos
 
 Para realizar a busca, basta digitar o nome do medicamento e apertar Enter ou o botão para submeter o campo.
 
-![Alt text](/assets/images/medications.png?raw=false)
-![Alt text](/assets/images/medications_search.png?raw=true)
+![Layout 1](/assets/images/medications.png?raw=false)
+![Layout 1](/assets/images/medications_search.png?raw=false)
+![Layout 2](/assets/images/medications_2.png?raw=false)
+![Layout 2](/assets/images/medications_search_2.png?raw=true)
 
 Ao rolar a lista de medicamentos até o final para baixo, o sistema fará a paginação, buscando mais medicamentos, se houver. 
 
-![Alt text](/assets/images/medications_pagination.png?raw=true)
+![Layout 1](/assets/images/medications_pagination.png?raw=false)
+![Layout 2](/assets/images/medications_pagination_2.png?raw=true)
 
 Clicando em um medicamento da lista, é possível verificar os detalhes do mesmo.
 
-![Alt text](/assets/images/medication_details.png?raw=true)
+![Layout 1](/assets/images/medication_details.png?raw=false)
+![Layout 1](/assets/images/medication_details.png?raw=false)
+![Layout 2](/assets/images/medication_details_2.png?raw=false)
+![Layout 2](/assets/images/medication_details_2.png?raw=true)
 
 ## Release
 
