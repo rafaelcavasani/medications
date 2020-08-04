@@ -55,8 +55,6 @@ Ao rolar a lista de medicamentos até o final para baixo, o sistema fará a pagi
 Clicando em um medicamento da lista, é possível verificar os detalhes do mesmo.
 
 ![Layout 1](/assets/images/medication_details.png?raw=false)
-![Layout 1](/assets/images/medication_details.png?raw=false)
-![Layout 2](/assets/images/medication_details_2.png?raw=false)
 ![Layout 2](/assets/images/medication_details_2.png?raw=true)
 
 ## Release
